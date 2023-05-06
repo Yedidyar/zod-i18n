@@ -1,0 +1,112 @@
+{
+  "errors": {
+    "invalid_type": "מצפה ל{{expected}}, קיבל {{received}}",
+    "invalid_type_received_undefined": "חובה",
+    "invalid_literal": "Invalid literal value, expected {{expected}}",
+    "unrecognized_keys": "Unrecognized key(s) in object: {{- keys}}",
+    "invalid_union": "קלט לא תקין",
+    "invalid_union_discriminator": "Invalid discriminator value. Expected {{- options}}",
+    "invalid_enum_value": "Invalid enum value. Expected {{- options}}, received '{{received}}'",
+    "invalid_arguments": "Invalid function arguments",
+    "invalid_return_type": "Invalid function return type",
+    "invalid_date": "Invalid date",
+    "custom": "קלט לא תקין",
+    "invalid_intersection_types": "Intersection results could not be merged",
+    "not_multiple_of": "מספר חייב ל a multiple of {{multipleOf}}",
+    "not_finite": "מספר חייב ל finite",
+    "invalid_string": {
+      "email": "לא חוקי {{validation}}",
+      "url": "לא חוקי {{validation}}",
+      "uuid": "לא חוקי {{validation}}",
+      "cuid": "לא חוקי {{validation}}",
+      "regex": "לא חוקי",
+      "datetime": "לא חוקי {{validation}}",
+      "startsWith": "קלט לא תקין: חייב להתחיל עם \"{{startsWith}}\"",
+      "endsWith": "קלט לא תקין: חייב להסתיים עם \"{{endsWith}}\""
+    },
+    "too_small": {
+      "array": {
+        "exact": "מערך חייב להכיל בדיוק {{minimum}} אלמנט(ים)",
+        "inclusive": "מערך חייב להכיל at least {{minimum}} אלמנט(ים)",
+        "not_inclusive": "מערך חייב להכיל more than {{minimum}} אלמנט(ים)"
+      },
+      "string": {
+        "exact": "מחרוזת חייבת להכיל בדיוק {{minimum}} תו(וים)",
+        "inclusive": "מחרוזת חייבת להכיל at least {{minimum}} תו(וים)",
+        "not_inclusive": "מחרוזת חייבת להכיל over {{minimum}} תו(וים)"
+      },
+      "number": {
+        "exact": "מספר חייב ל בדיוק {{minimum}}",
+        "inclusive": "מספר חייב ל greater than או שווה ל {{minimum}}",
+        "not_inclusive": "מספר חייב ל greater than {{minimum}}"
+      },
+      "set": {
+        "exact": "קלט לא תקין",
+        "inclusive": "קלט לא תקין",
+        "not_inclusive": "קלט לא תקין"
+      },
+      "date": {
+        "exact": "תאריך חייב ל בדיוק {{- minimum, datetime}}",
+        "inclusive": "תאריך חייב ל greater than או שווה ל {{- minimum, datetime}}",
+        "not_inclusive": "תאריך חייב ל greater than {{- minimum, datetime}}"
+      }
+    },
+    "too_big": {
+      "array": {
+        "exact": "מערך חייב להכיל בדיוק {{maximum}} אלמנט(ים)",
+        "inclusive": "מערך חייב להכיל at most {{maximum}} אלמנט(ים)",
+        "not_inclusive": "מערך חייב להכיל פחות מ {{maximum}} אלמנט(ים)"
+      },
+      "string": {
+        "exact": "מחרוזת חייבת להכיל בדיוק {{maximum}} תו(וים)",
+        "inclusive": "מחרוזת חייבת להכיל at most {{maximum}} תו(וים)",
+        "not_inclusive": "מחרוזת חייבת להכיל under {{maximum}} תו(וים)"
+      },
+      "number": {
+        "exact": "מספר חייב ל בדיוק {{maximum}}",
+        "inclusive": "מספר חייב ל פחות מ או שווה ל {{maximum}}",
+        "not_inclusive": "מספר חייב ל פחות מ {{maximum}}"
+      },
+      "set": {
+        "exact": "קלט לא תקין",
+        "inclusive": "קלט לא תקין",
+        "not_inclusive": "קלט לא תקין"
+      },
+      "date": {
+        "exact": "תאריך חייב ל בדיוק {{- maximum, datetime}}",
+        "inclusive": "תאריך חייב להיות קטן מ או שווה ל {{- maximum, datetime}}",
+        "not_inclusive": "תאריך חייב להיות קטן מ {{- maximum, datetime}}"
+      }
+    }
+  },
+  "validations": {
+    "email": "אימייל",
+    "url": "כתובת אתר",
+    "uuid": "uuid",
+    "cuid": "cuid",
+    "regex": "ביטוי רגולרי",
+    "datetime": "תאריך שעה"
+  },
+  "types": {
+    "function": "פונקציה",
+    "number": "מספר",
+    "string": "מחרוזת",
+    "nan": "nan",
+    "integer": "מספר שלם",
+    "float": "מספר עשרוני",
+    "boolean": "בוליאני",
+    "date": "תאריך",
+    "bigint": "מספר שלם גדול",
+    "undefined": "לא מוגדר",
+    "symbol": "symbol",
+    "null": "null",
+    "array": "מערך",
+    "object": "אובייקט",
+    "unknown": "unknown",
+    "promise": "promise",
+    "void": "void",
+    "never": "never",
+    "map": "map",
+    "set": "set"
+  }
+}
